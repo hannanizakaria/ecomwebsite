@@ -120,7 +120,6 @@ button.white{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-attachment: fixed;
 }
 #hero h4{
     font-size: 25px;
