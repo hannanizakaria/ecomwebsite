@@ -1017,10 +1017,10 @@ footer p{
         width: 100%;
     }
     #page-header p {
-        color: #fff;
-        font-weight: 600;
         font-size: 15px;
-        text-align: center;
+    }
+    #page-header h2 {
+        margin-bottom: -15px;
     }
 }
 
