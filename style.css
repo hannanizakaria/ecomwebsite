@@ -1018,6 +1018,7 @@ footer p{
     }
     #page-header p {
         font-size: 15px;
+        text-align: center;
     }
     #page-header h2 {
         margin-bottom: -15px;
