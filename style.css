@@ -538,7 +538,6 @@ footer p{
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    
 }
 #page-header h2{
     color: #fff;
@@ -667,15 +666,104 @@ footer p{
     font-weight: 600;
 }
 
+
 /*------ Blog Page ------*/
-#page-header .blog-header{
+
+#page-header.blog-header{
     background-image: url("images/banner/b19.jpg");
-    height: 35vh;
 }
 #blog{
     padding: 150px 150px 0 150px;
 }
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#blog .blog-details{
+    width: 50%;
+}
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+#blog .blog-details a::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 9px;
+    right: -60px;
+    transition: 0.3s;
+}
+#blog .blog-details a:hover{
+    color: rgb(59, 182, 141);
+}
+#blog .blog-details a:hover::after{
+    background-color: rgb(59, 182, 141);
+    width: 50px;
+}
+#blog .blog-box h1{
+    position: absolute;
+    top: -69px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(197, 197, 197);
+    z-index: -9;
+}
+
 /*------ About Page ------*/
+#page-header.about-header{
+    background-image: url(images/about/banner.png);
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+#about-head div{
+    padding-left: 30px;
+}
+#about-app{
+    text-align: center;
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video{
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+}
+#about-app a{
+     text-decoration: none;
+     
+   
+}
 
 /*------ start media query ------*/
 
@@ -880,7 +968,7 @@ footer p{
         height: 95vh;
         background-position: top 25% right 35%;
     }
-    /*------ Single-Product ------*/
+   
     #prodetails {
         display: flex;
         flex-direction: column;
@@ -903,10 +991,30 @@ footer p{
         font-size: 15px;
     }
     #page-header {
-        height: 26vh;
+        height: 25vh;
     }
     #newsletter h4 {
         font-size: 33px;
+    }
+    #blog{
+        padding: 150px 150px 0 150px;
+    }
+    /*------ Blog Page ------*/
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-details {
+        width: 100%;
     }
 }
 
