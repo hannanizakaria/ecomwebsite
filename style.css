@@ -561,19 +561,15 @@ footer p{
 }
 #padination a{
     text-decoration: none;
-    background-color: rgb(59, 182, 141);
-    padding: 11px 16px;
+    padding: 11px 18px;
     border-radius: 8px;
-    border: 1px solid #cce7d0;
     font-size: 18px;
     font-weight: 600;
-    background-color: #e8f6ea;
     color: rgb(59, 182, 141);
 }
 #padination a:hover{
     color: #fff;
     background: rgb(59, 182, 141);
-    border: 1px solid rgb(59, 182, 141);
     transition: 0.3s;
 }
 #padination a i{
@@ -672,7 +668,7 @@ footer p{
 }
 
 /*------ Blog Page ------*/
-#page-header.blog-header{
+#page-header .blog-header{
     background-image: url("images/banner/b19.jpg");
     height: 35vh;
 }
