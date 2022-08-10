@@ -981,6 +981,10 @@ footer p{
         width: 100%;
         padding: 20px;
     }
+    .small-img-col img{
+        border-radius: 10px;
+        margin-top: 4px;
+    }
     #page-header h2 {
         font-size: 40px;
     }
