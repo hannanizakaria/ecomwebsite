@@ -102,7 +102,7 @@ button.white{
 }
 #navbar li a:hover,
 #navbar li a.active {
-    color: rgb(59, 182, 141);
+    color: #0F999A;
 }
 #mobile{
     display: none;
@@ -134,7 +134,7 @@ button.white{
     font-weight: 800;
 }
 #hero h1{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     font-size: 70px;
     font-weight: 900;
 }
@@ -147,14 +147,14 @@ button.white{
     padding: 15px 40px;
     color: #fff;
     border-radius: 8px;
-    border: 2px solid rgb(59, 182, 141);
+    border: 2px solid #0F999A;
     cursor: pointer;
-    background: rgb(59, 182, 141);
+    background: #0F999A;
     text-decoration: none;
     transition: 0.3s;
 }
 #hero a:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     background: none;
     
 }
@@ -208,7 +208,7 @@ button.white{
 #product1 .pro{
     width: 23%;
     min-width: 250px;
-    padding: 10px 12px;
+    padding: 11px 12px;
     border: 1px solid #0000001c;
     border-radius: 15px;
     cursor: pointer;
@@ -243,18 +243,35 @@ button.white{
 #product1 .pro .des h5{
     padding-top: 7px;
     color: #000000;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 900;
 }
 #product1 .pro .des i{
     font-size: 13px;
     color: rgb(230, 215, 0);
+    margin-bottom: 12PX;
 }
 #product1 .pro .des h4{
     padding-top: 7px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
-    color: rgb(59, 182, 141);
+    color: #0F999A;
+    margin-bottom: 35px;
+}
+.discount-tag{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 6px;
+    color: red;
+    font-weight: 700;
+    font-size: 12px;
+    right: 17px;
+    top: 15px;
+    text-transform: capitalize;
+}
+#product1:hover .card-btn{
+    opacity: 1;
 }
 #product1 .pro a i{
     width: 40px;
@@ -264,18 +281,19 @@ button.white{
     border: 1px solid #cce7d0;
     font-size: 22px;
     background-color: #e8f6ea;
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.144);
     position: absolute;
     transition: 0.3s;
     bottom: 10px;
     right: 10px;
     position: absolute;
+    
 }
 #product1 .pro a i:hover{
     color: #fff;
-    background: rgb(59, 182, 141);
-    border: 1px solid rgb(59, 182, 141);
+    background: #0F999A;
+    border: 1px solid #0F999A;
     box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.432);
 }
 #banner{
@@ -300,7 +318,7 @@ button.white{
     padding: 10px 0;
 }
 #banner h2 span{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     font-size: 40px;
     padding: 10px 0;
     border: none;
@@ -311,7 +329,7 @@ button.white{
     font-size: 60px;  
 }
 #banner button:hover{
-    background: rgb(59, 182, 141);
+    background: #0F999A;
     color: #fff;
 }
 #sm-banner{
@@ -357,8 +375,8 @@ button.white{
     padding-bottom: 15px;
 }
 #sm-banner .banner-box:hover button{
-    background: rgb(59, 182, 141);
-    border: 1px solid rgb(59, 182, 141);
+    background: #0F999A;
+    border: 1px solid #0F999A;
 }
 #banner3{
     display: flex;
@@ -372,15 +390,17 @@ button.white{
     justify-content: center;
     align-items: flex-start;
     background-image: url(images/banner/b7.jpg);
-    min-width: 30%;
+    min-width: 32%;
     height: 30vh;
     background-size: cover;
     background-position: center;
     border-radius: 15px;
     padding: 20px;
-    margin-bottom: 20px ;
+    margin-bottom: 60px ;
     box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.212);
     transition: 0.3s;
+    cursor: pointer;
+    
 }
 #banner3 .banner-box:hover{
     box-shadow: 8px 10px 23px rgba(0, 0, 0, 0.336);
@@ -415,7 +435,7 @@ button.white{
 #newsletter h4{
     font-size: 40px;
     font-weight: 800;
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     transition: 0.3s;
 }
 #newsletter p{
@@ -431,7 +451,7 @@ button.white{
 }
 #newsletter p span:hover{
     font-weight: 800;
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     transition: 0.3s;
 }
 #newsletter .form{
@@ -451,7 +471,7 @@ button.white{
 }
 #newsletter button{
     height: 45px;
-    background-color: rgb(59, 182, 141);
+    background-color: #0F999A;
     color: #fff;
     white-space: nowrap;
     line-height: 13px;
@@ -493,7 +513,7 @@ footer a{
     transition: 0.3s;
 }
 footer a:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
 }
 footer .follow{
     margin-top: 20px;
@@ -506,7 +526,7 @@ footer .follow i{
     transition: 0.3s;
 }
 footer .follow i:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     font-size: 21px;
 }
 footer .install .row img{
@@ -556,7 +576,7 @@ footer p{
     margin-bottom: 10px;
 }
 #page-header h2:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     font-size: 74px;
 }
 #page-header p{
@@ -573,16 +593,16 @@ footer p{
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     margin: 0px;
 }
 #padination a:hover{
     color: #fff;
-    background: rgb(59, 182, 141);
+    background: #0F999A;
     transition: 0.3s;
 }
 #padination .laft-arrow{
-    border: 2px solid rgb(59, 182, 141);
+    border: 2px solid #0F999A;
     padding: 9px 18px;
 }
 #padination a .right-arrow{
@@ -650,7 +670,7 @@ footer p{
     font-size: 16px;
     margin-right: 10px;
     border-radius: 8px;
-    border: 2px solid rgb(59, 182, 141);
+    border: 2px solid #0F999A;
 
 }
 #prodetails .single-pro-details input:focus{
@@ -662,18 +682,18 @@ footer p{
     padding: 13px 30px;
     color: #fff;
     border-radius: 8px;
-    border: 2px solid rgb(59, 182, 141);
+    border: 2px solid #0F999A;
     cursor: pointer;
-    background: rgb(59, 182, 141);
+    background: #0F999A;
 }
 #prodetails .single-pro-details button:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     background: none;
 }
 #prodetails .single-pro-details select{
     outline: none;
     border-radius: 4px;
-    border: 2px solid rgb(59, 182, 141);
+    border: 2px solid #0F999A;
     cursor: pointer;
 }
 #prodetails .single-pro-details span{
@@ -729,10 +749,10 @@ footer p{
     transition: 0.3s;
 }
 #blog .blog-details a:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
 }
 #blog .blog-details a:hover::after{
-    background-color: rgb(59, 182, 141);
+    background-color: #0F999A;
     width: 50px;
 }
 #blog .blog-box h1{
@@ -858,12 +878,12 @@ footer p{
         padding: 8px 15px;
         color: #fff;
         border-radius: 8px;
-        border: 2px solid rgb(59, 182, 141);
+        border: 2px solid #0F999A;
         cursor: pointer;
-        background: rgb(59, 182, 141);
+        background: #0F999A;
 }
 #form-details form button:hover{
-        color: rgb(59, 182, 141);
+        color: #0F999A;
         background: none;
 }
 
@@ -955,13 +975,13 @@ footer p{
     color: #fff;
     padding-bottom: 9.5px;
     border-radius: 3px;
-    border: 2px solid rgb(59, 182, 141);
+    border: 2px solid #0F999A;
     cursor: pointer;
-    background: rgb(59, 182, 141);
+    background: #0F999A;
 }
 #coupon button:hover,
 #subtotal button:hover{
-    color: rgb(59, 182, 141);
+    color: #0F999A;
     background: none;
 }
 #subtotal{
