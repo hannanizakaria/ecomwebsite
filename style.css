@@ -596,6 +596,7 @@ footer p{
     font-weight: 600;
     color: #0F999A;
     margin: 0px;
+    border: 2px solid #0F999A;
 }
 #padination a:hover{
     color: #fff;
@@ -666,7 +667,7 @@ footer p{
 }
 #prodetails .single-pro-details input{
     width: 50px;
-    height: 46px;
+    height: 43px;
     padding-left: 10px;
     font-size: 16px;
     margin-right: 10px;
@@ -680,7 +681,7 @@ footer p{
 #prodetails .single-pro-details button{
     font-size: 15px;
     font-weight: 700;
-    padding: 13px 30px;
+    padding: 8px 30px;
     color: #fff;
     border-radius: 8px;
     border: 2px solid #0F999A;
@@ -693,7 +694,7 @@ footer p{
 }
 #prodetails .single-pro-details select{
     outline: none;
-    border-radius: 4px;
+    border-radius: 7px;
     border: 2px solid #0F999A;
     cursor: pointer;
 }
