@@ -42,13 +42,13 @@ body{
 /*------ Header Start ------*/
 #header .logo{
     margin-top: 5px;
-    width: 90%;
+    width: 60%;
 }
 #header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 80px;
+    padding: 1px 80px;
     background: #E3E6F3;
     box-shadow: 0 0.3px 120px rgba(24, 24, 24, 0.288);
     position: sticky;
