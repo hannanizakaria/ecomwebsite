@@ -1312,7 +1312,11 @@ footer p{
         flex-direction: column;
     }
     #header{
-        padding: 3px 30px;
+        padding: 2px 30px;
+    }
+    #header .logo{
+        margin-top: 5px;
+        width: 40%;
     }
 }
 
