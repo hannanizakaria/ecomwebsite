@@ -1311,6 +1311,9 @@ footer p{
     #cart {
         flex-direction: column;
     }
+    #header{
+        padding: 3px 30px;
+    }
 }
 
 
