@@ -973,7 +973,7 @@ footer p{
 #subtotal button{
     font-size: 15px;
     font-weight: 700;
-    padding: 7px 15px;
+    padding: 8px 15px;
     color: #fff;
     padding-bottom: 9.5px;
     border-radius: 3px;
@@ -1006,6 +1006,9 @@ footer p{
 }
 #footer .logo{
     width: 60%;
+}
+#row .img{
+    width: 20px;
 }
 
 
