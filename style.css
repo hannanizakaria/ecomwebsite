@@ -52,6 +52,7 @@ body{
     background: #E3E6F3;
     box-shadow: 0 0.3px 120px rgba(24, 24, 24, 0.288);
     position: sticky;
+    border-bottom: 1px solid #0000001c;
     top: 0;
     left: 0;
     z-index: 10000;
@@ -590,7 +591,7 @@ footer p{
 }
 #padination a{
     text-decoration: none;
-    padding: 11px 18px;
+    padding: 9px 18px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
