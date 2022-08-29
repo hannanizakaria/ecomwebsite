@@ -1007,10 +1007,6 @@ footer p{
 #footer .logo{
     width: 60%;
 }
-#row .img{
-    width: 20px;
-}
-
 
 
 
@@ -1318,7 +1314,7 @@ footer p{
         flex-direction: column;
     }
     #header{
-        padding: 3px 30px;
+        padding: 4px 30px;
     }
     #header .logo{
         margin-top: 5px;
